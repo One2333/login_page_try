@@ -1,0 +1,15 @@
+﻿* {
+    padding:0;
+    margin:0;
+}
+.bian {
+    width:472px;
+    height:352px;
+    border:15px outset #520808;
+    padding:10px 35px;
+    margin:40px auto 0;
+    background:#e9eab1;
+}
+    .bian img {
+        border:2px solid white;
+    }

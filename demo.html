@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Baidu login</title>
+    <link href="demo.css" rel="stylesheet"/>
+    <script src="jquery-3.3.1.min.js"></script><!--这三个顺序绝对不能错-->
+    <script src="layer/layer.js"></script>
+    <script src="demo.js"></script>
+    
+    <!--
+    <style type="text/css">
+        
+    </style>
+    
+-->
+</head>
+<body>
+    <div id="header">
+        <div id="header-con">
+            <div><a href="javascript:;" id="blogin" onclick="ShowLoginBox()">Sign in</a></div>
+        </div>
+    </div>
+
+     <div id="loginbox">
+        <div class="login-item">User Name<input type="text" id="txtUserName" placeholder="username"/></div>
+        <div class="login-item">Password<input type="text" id="txtPwd" placeholder="password"/></div>
+        <div class="login-item1">
+            <p><input type="radio" name="identification" value="Administrator" /> Administrator</p>
+            <p><input type="radio" name="identification" value="com_user" checked="checked" /> User</p>
+        </div>
+        <div class="login-item"><a href="javascript:;" onclick="login()">Sign in </a></div>
+	<div><a href="javascript:;" id="register" onclick="ShowRegisterBox()">New User Register</a></div>
+      </div>
+</body>
+</html>
